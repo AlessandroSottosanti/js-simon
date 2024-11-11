@@ -113,6 +113,7 @@ formListinputs.addEventListener("submit", function (event) {
     // Verifica punteggio e mostra il risultato
     if (inputNums.length === 5) {
         totElement.innerHTML = `Il tuo punteggio totale è ${score} su ${randomNums.length}.`;
+        score = 0;
     } else {
         totElement.innerHTML = "Inserisci tutti i numeri correttamente per procedere.";
     }

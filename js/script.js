@@ -29,7 +29,7 @@ btnStartElem.addEventListener("click", function () {
 
 
     // TIMER (ed azioni correlate ad esso)
-    let time = 5;
+    let time = 10;
     const intervalId = setInterval(function () {
         counterElem.innerHTML = `${time}`;
         time--;

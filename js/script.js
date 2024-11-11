@@ -116,6 +116,7 @@ formListinputs.addEventListener("submit", function (event) {
         score = 0;
     } else {
         totElement.innerHTML = "Inserisci tutti i numeri correttamente per procedere.";
+        score = 0;
     }
     
 });
